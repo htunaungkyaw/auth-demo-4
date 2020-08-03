@@ -1,0 +1,21 @@
+{
+  "name": "auth-demo-4",
+  "version": "1.0.0",
+  "description": "JWT demo, Code along with WDS",
+  "main": "index.js",
+  "scripts": {
+    "server1": "nodemon server.js",
+    "authServer": "nodemon auth.js",
+    "server2": "nodemon server2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
